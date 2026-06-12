@@ -1,0 +1,126 @@
+.booking-page {
+  min-height: calc(100vh - 76px);
+  padding: 3rem 0 5rem;
+  background:
+    radial-gradient(circle at top left, rgba(46, 91, 255, 0.12), transparent 32rem),
+    linear-gradient(135deg, #eef6ff, #ffffff);
+}
+
+.booking-card {
+  overflow: hidden;
+  border: 0;
+  border-radius: 28px;
+}
+
+.booking-summary {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(160deg, var(--dark-blue), var(--primary-blue) 55%, var(--accent-blue));
+}
+
+.booking-doctor-img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 1.5rem;
+  border: 6px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.booking-summary h2 {
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+
+.booking-summary p {
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+}
+
+.doctor-meta-list {
+  display: grid;
+  gap: 0.65rem;
+  width: 100%;
+}
+
+.doctor-meta-list span {
+  padding: 0.75rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  font-weight: 700;
+}
+
+.booking-current-link {
+  margin-top: 1.25rem;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.92rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.booking-current-link:hover {
+  color: #ffffff;
+}
+
+.booking-form-wrapper {
+  padding: 3rem;
+}
+
+.booking-form-heading span {
+  color: var(--primary-blue);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.booking-form-heading h3 {
+  margin: 0.4rem 0 0.5rem;
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.booking-form-heading p {
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+}
+
+.booking-success-box h4 {
+  margin-bottom: 0.35rem;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.booking-track-link,
+.booking-track-link:hover {
+  display: inline-flex;
+  margin-top: 0.25rem;
+  color: var(--success-text);
+  font-weight: 900;
+}
+
+.booking-submit,
+.booking-submit:hover,
+.booking-submit:focus {
+  border: 0;
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  background: linear-gradient(90deg, var(--primary-blue), var(--secondary-blue));
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .booking-page {
+    padding: 2rem 0;
+  }
+
+  .booking-form-wrapper,
+  .booking-summary {
+    padding: 2rem 1.25rem;
+  }
+}

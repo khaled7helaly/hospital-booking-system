@@ -1,0 +1,79 @@
+.professional-card {
+  overflow: hidden;
+  border: 1px solid rgba(46, 91, 255, 0.12);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.professional-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 24px 44px rgba(46, 91, 255, 0.18);
+}
+
+.card-image-container {
+  overflow: hidden;
+}
+
+.card-img-cover {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+
+.professional-card:hover .card-img-cover {
+  transform: scale(1.08);
+}
+
+.department-img {
+  height: 235px;
+}
+
+.doctor-img {
+  height: 240px;
+}
+
+.department-card .card-body,
+.doctor-card .card-body {
+  padding: 1.4rem;
+}
+
+.department-card .card-title,
+.doctor-card .card-title {
+  margin-bottom: 0.6rem;
+  color: var(--dark-blue);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.department-card .card-text {
+  min-height: 3rem;
+  color: var(--text-muted);
+}
+
+.doctor-card {
+  text-align: center;
+}
+
+.doctor-card .card-text {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.doctor-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.doctor-card-meta span {
+  padding: 0.45rem 0.65rem;
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--dark-blue);
+  font-size: 0.86rem;
+  font-weight: 800;
+}

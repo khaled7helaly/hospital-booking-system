@@ -1,0 +1,12 @@
+@import "../login/Login.css";
+
+.btn-signup,
+.btn-signup:hover,
+.btn-signup:focus {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.85rem 1rem;
+  background: linear-gradient(90deg, #2e5bff, #57a6ff);
+  color: white;
+  font-weight: 900;
+}

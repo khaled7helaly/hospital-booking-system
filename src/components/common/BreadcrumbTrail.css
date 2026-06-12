@@ -1,0 +1,18 @@
+.breadcrumb-trail,
+.breadcrumb-trail-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.breadcrumb-trail {
+  margin-bottom: 1.25rem;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.breadcrumb-trail a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}

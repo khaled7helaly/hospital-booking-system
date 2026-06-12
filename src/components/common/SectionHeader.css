@@ -1,0 +1,32 @@
+.section-header {
+  max-width: 780px;
+  margin: 0 auto 1.5rem;
+}
+
+.section-header-center {
+  text-align: center;
+}
+
+.section-header-left {
+  margin-left: 0;
+  text-align: left;
+}
+
+.section-header span {
+  color: var(--primary-blue);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section-header h1 {
+  margin: 0.5rem 0;
+  color: var(--dark-blue);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+}
+
+.section-header p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
